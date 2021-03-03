@@ -1,0 +1,96 @@
+body{
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    margin: 25px;
+}
+
+.container{
+    width: 900px;
+    height: 625px;
+    background: rgba(0,0,0,0.5);
+    margin: auto;
+    border-radius: 20px;
+}
+
+header > div{
+    padding-top: 63px;
+    text-align: center;
+}
+
+header img{
+    width: 200px;
+}
+
+header h1{
+    color: #01DD00;
+    margin: 0px;
+    font-size: 30px;
+    font-family: "Serif";
+}
+
+nav{
+    background: #01DD00;
+    width: 82%;
+    height: 30px;
+    margin: auto;
+}
+
+nav > .row{
+    text-align: center;
+    padding-top: 5px;
+}
+
+nav button{
+    /*color: red;*/
+    font-size: 10px;
+}
+
+section{
+    margin-top: 20px;
+    margin-left: 78px;
+}
+
+section > .row{
+    margin-bottom: 30px;
+}
+
+.title-product{
+    color: white;
+    font-size: 20px;
+    font-family: "Serif";
+    display: inline-block;
+    margin: 0;
+}
+
+.title-product ~ span{
+    display: block;
+    color: white;
+    font-size: 15px;
+}
+
+.title-product + span:before{
+    content: '\21A6';
+}
+
+.charge{
+    height: 20px;
+    border-radius: 5px;
+}
+
+.medium{
+    width: 300px;
+    background: orange;
+}
+
+.high{
+    width: 600px;
+    background: green;
+}
+
+.low{
+    width: 100px;
+    background: red;
+}
+
+
+
